@@ -1,0 +1,233 @@
+.doc-main-container{
+	position: relative
+}
+
+.doc-side-menu{
+	position: absolute;
+	top: 0;
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.side-menu-header{
+	/*margin-bottom: 30px;*/
+	line-height: 1;
+}
+
+.doc-side-menu.affix{
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+}
+
+.doc-side-menu .accordion-toggle{
+	font-family: "roboto";
+	font-size: 14px;
+	outline: 0;
+}
+
+.doc-side-menu .accordion-toggle.leaf{
+}
+
+.doc-side-menu .accordion .accordion-toggle:hover{
+	background-color: #7399C6;
+	color: #fff;
+}
+
+.doc-side-menu .accordion .accordion-toggle{
+	border-bottom: 0px !important;
+}
+
+.doc-side-menu .accordion .accordion-heading{
+	border-top: 0px !important;
+}
+
+.doc-side-menu .accordion .accordion-toggle:hover:before{
+	color: #fff;
+}
+
+.doc-side-menu .accordion .accordion-toggle.active{
+	background-color: #7399C6;
+	color: #fff;
+}
+
+.doc-side-menu .accordion .accordion-toggle.active:before{
+	color: #fff;
+}
+
+.doc-side-menu .accordion-toggle.leaf::before{
+	display: none;
+}
+
+.doc-side-menu .accordion>.accordion-heading:first-child{
+	border-top: 0px;
+}
+
+/* horizontal bar styles that contains breadcrumb 
+****************************************************/
+.horizontal-bar{
+	border-bottom: 1px solid #ddd;
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	top: 0px;
+	z-index: 1000;
+	padding-left: 15px;
+	min-height: 40px;
+	-webkit-transition: left 0.3s, width 0.3s;
+	-moz-transition: left 0.3s, width 0.3s;
+	-ms-transition: left 0.3s, width 0.3s;
+	-o-transition: left 0.3s, width 0.3s;
+	transition: left 0.3s, width 0.3s;
+}
+
+.horizontal-bar h2{
+	display: inline-block;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.horizontal-bar.affix{
+	position: fixed;
+	top: 0px;
+	left: 300px;
+}
+
+.horizontal-bar.affix.no-left{
+	left: 0px;
+}
+
+.horizontal-bar > .breadcrumb{
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	/*margin-left: 5px;*/
+}
+
+.horizontal-bar > .breadcrumb > li{
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+	position: relative;
+	z-index: 10;
+	font-size: 12px;
+}
+
+.horizontal-bar > .breadcrumb > li:before{
+	position: absolute;
+	content: "";
+	top: 0px;
+	right: 0px;
+	width: 1px;
+	height: 15px;
+	background-color: #bbb;
+	-webkit-transform: skew(-23deg);
+	-moz-transform: skew(-23deg);
+	-ms-transform: skew(-23deg);
+	-o-transform: skew(-23deg);
+	transform: skew(-23deg);
+}
+
+.horizontal-bar > .breadcrumb > li:last-child:before{
+	display: none;
+}
+
+.hr-nav-link{
+	color: #777;
+}
+
+.back-to-top-link{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 50%;
+	margin-left: -20px;
+	top: 7px;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	outline: none;
+}
+
+.back-to-top-link i{
+	font-size: 25px;
+	line-height: 1;
+}
+
+.affix .back-to-top-link{
+	opacity: 1;
+}
+
+.prev-next-bar{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.prev-next-bar i{
+}
+
+.prev-next-bar>a{
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+/* document body styles
+****************************************************/
+#panel-collapse, #panel-collapse>i{
+	font-size: inherit;
+	line-height: inherit;
+}
+
+#panel-expand, #panel-expand>i{
+	font-size: inherit;
+	line-height: 17px;
+	font-size: 17px;
+}
+
+.doc-main-content{
+	margin-left: 300px;
+	-webkit-transition: margin-left 0.3s ease-in;
+	-moz-transition: margin-left 0.3s ease-in;
+	-ms-transition: margin-left 0.3s ease-in;
+	-o-transition: margin-left 0.3s ease-in;
+	transition: margin-left 0.3s ease-in;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+}
+
+.doc-main-content.expand{
+	margin-left: 0px;
+	z-index: 10;
+}
+
+.row.section [class*="col-"]{
+	margin-bottom: -99999px;
+	padding-bottom: 99999px;
+}
+
+.row.section{
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.section h3, .section h4{
+	margin-top: 30px;
+}
+
+pre[class*="language-"]{
+	font-size: 14px;
+}
+
+.example pre[class*="language-"]{
+	margin-top: 45px;
+}
+
+.with-example h2:first-child{
+
+}
