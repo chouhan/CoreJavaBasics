@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <!-- Standard Meta -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Site Properties -->
+  <title>Documentation Template</title>
+
+  <!-- DocPad Meta -->
+  <meta name="generator" content="DocPad v6.63.8" />
+
+  <!-- ModernizrJS :: PolyFill for handling compatibility issues -->
+  <script defer="defer"  src="//gscdn.gs.com/js/modernizr/2.7.1/modernizr.min.js"></script>
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="//gscdn.gs.com/js/respond/1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+
+  <!-- UI Toolkit CSS -->
+  <link  rel="stylesheet" href="//gscdn.gs.com/firmwide/gns/software/cp/ux/uitoolkit/DONT_USE___REPLACE_WITH_APP_ID/2.1.2/uitoolkit/css/gs.uitoolkit.min.css" />
+
+  <!-- Example specific CSS -->
+  <link  rel="stylesheet" href="css/prism.css" /><link  rel="stylesheet" href="css/documentation-styles.css" />
+
+</head>
+<body  class="preload ">
+
+  
+  
+    <div class="app-content">
+
+  <!-- Inline header contains the menu links -->
+    <div class="app-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+
+            <!-- App icon (Hamburger) -->
+            <a class="app-menu-icon pull-left sb-toggle-left" href="#">
+              <i class="fa fa-bars"></i>
+            </a>
+
+            <!-- App brand: Displayed on medium width screens and above -->
+            <a class="app-brand pull-left" href="#home">
+              <i class="fa fa-home"></i>
+            </a>
+
+            <!-- App name: Application name with optional <strong> highlight -->
+            <a class="app-name pull-left" href="#home">
+              <h1><strong>Documentation Template</strong> </h1>
+            </a>
+
+            <!-- Accessible link. Replace with #id of main content -->
+            <a class="sr-only" href="#web-ui-toolkit-content" data-toggle="tooltip" data-placement="bottom" data-trigger="focus" title="Jump to content">Jump to content</a>
+
+            <!-- Inline menu (Use for small number of links. <=5) -->
+            <ul class="app-menu app-menu-inline">
+              <li class="active"><a class="active" href="#">Documentation</a></li>
+              <li><a href="#">Menu 1</a></li>
+              <li><a href="#">Menu 2</a></li>
+              <li>
+                <a href="#" class="app-menu-dropdown" data-toggle="dropdown">Menu 3</a>
+                <ul class="app-menu app-menu-sub">
+                  <li><a href="#">Sub-menu 1</a></li>
+                  <li><a href="#">Sub-menu 2</a></li>
+                  <li><a href="#">Sub-menu 3</a></li>
+                  <li><a href="#">Sub-menu 4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Menu 4</a></li>
+            </ul>
+
+            <!-- App icons -->
+            <div class="app-header-icons pull-right">
+
+              <!-- Notifications (Uses .app-notifications in .app-sidebar-right) -->
+              <a href="#" class="app-header-icon app-notifications-icon">
+                <i class="fa fa-bell-o"></i>
+                <span class="badge badge-danger">1</span>
+              </a>
+
+              <!-- Profile icon (Uses .app-profile in .app-sidebar-left) -->
+              <a class="app-header-icon app-profile-icon" href="#">
+                <div class="app-profile-icon-container">
+                  <img alt="" src="http://directory.web.gs.com/directory/api?kerberos=none&amp;size=small">
+                </div>
+              </a>
+
+              <!-- Search bar and icon -->
+              <div class="app-header-icon app-search-icon">
+                <div class="app-header-search-container">
+                  <label for="web-ui-toolkit-search" class="sr-only">Search</label>
+                  <input id="web-ui-toolkit-search" type="text">
+                </div>
+                <a href="#"><i class="fa fa-search"></i></a>
+              </div>
+
+            </div>
+
+          </div><!-- /.col-md-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container-* -->
+    </div><!-- /.app-header -->
+
+    <div id="web-ui-toolkit-content">
+      <div class="container-fluid">
+        <!-- side navigation begins -->
+        <div class="row">
+          <div class="col-xs-12 doc-main-container col-secondary no-padding no-padding-top no-padding-bottom">
+            
+              <div class="doc-side-menu" data-spy="affix" data-offset-top="42">
+                <div class="row">
+                  <div class="col-xs-12 ">
+                    <h2 class="side-menu-header clearfix space-top"> Documentation <a class="pull-right" id="panel-collapse" href="#" ><i class="fa fa-angle-double-left icon-action"></i></a></h2>
+                    
+                    <div class="accordion" id="side-panel-accordion" role="tablist" aria-multiselectable="false">
+                      <div class="accordion-heading">
+                        <a class="accordion-toggle leaf active" "#" data-parent="#side-panel-accordion">Overview</a>
+                      </div>
+                      
+                      <div class="accordion-panel panel" role="presentation">  
+                        <div class="accordion-heading" role="presentation">
+                          <a class="accordion-toggle collapsed" href="#getstarted" data-toggle="collapse" data-parent="#side-panel-accordion">
+                            Topic 1
+                          </a>
+                        </div>
+                        <div id="getstarted" class="accordion-body collapse">
+                          <div class="accordion-inner">
+                            <div class="accordion" id="side-panel-sub-accordion" role="tablist" aria-multiselectable="false">
+                              <div class="accordion-heading" role="presentation">
+		                          <a class="accordion-toggle collapsed" href="#subtopic1" data-toggle="collapse" data-parent="#side-panel-sub-accordion">
+		                            Subtopic 1
+		                          </a>
+		                       </div>
+		                       <div id="subtopic1" class="accordion-body collapse">
+		                       		<div class="accordion-inner">
+		                       			<div class="accordion" id="side-panel-accordion" role="tablist" aria-multiselectable="false">
+		                       			  <div class="accordion-heading">
+			                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Sub-subtopic 1</a>
+			                              </div>
+			                              <div class="accordion-heading">
+			                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Sub-subtopic 2</a>
+			                              </div>
+			                              <div class="accordion-heading">
+			                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Sub-subtopic 3</a>
+			                              </div>
+			                              <div class="accordion-heading">
+			                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Sub-subtopic 4</a>
+			                              </div>
+		                       			</div>
+		                       		</div>
+		                       </div>
+
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 2</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 3</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 4</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 5</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="accordion-panel panel" role="presentation">  
+                        <div class="accordion-heading" role="presentation">
+                          <a class="accordion-toggle collapsed" href="#menu-concept" data-toggle="collapse" data-parent="#side-panel-accordion">
+                            Topic 2
+                          </a>
+                        </div>
+                        <div id="menu-concept" class="accordion-body collapse">
+                          <div class="accordion-inner" role="presentation">
+                            <div class="accordion" id="side-panel-accordion" role="tablist" aria-multiselectable="false">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 1</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 2</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 3</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 4</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 5</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                      </div>
+
+                      <div class="accordion-panel panel" role="presentation">  
+                        <div class="accordion-heading" role="presentation">
+                          <a class="accordion-toggle collapsed" href="#menu-testing" data-toggle="collapse" data-parent="#side-panel-accordion">
+                            Topic 3
+                          </a>
+                        </div>
+                        <div id="menu-testing" class="accordion-body collapse">
+                          <div class="accordion-inner" role="presentation">
+                            <div class="accordion" id="side-panel-accordion" role="tablist" aria-multiselectable="false">
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 1</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 2</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 3</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 4</a>
+                              </div>
+                              <div class="accordion-heading">
+                                <a class="accordion-toggle leaf" href="#" data-parent="#side-panel-accordion">Subtopic 5</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="doc-main-content">
+              <!-- horizontal breadcrumb navigation panel -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="horizontal-bar col-secondary col-border-left" data-spy="affix" data-offset-top="42">
+                    <a class="hidden" id="panel-expand" href="#" ><i class="fa fa-angle-double-right icon-action"></i>
+                    </a>
+                    <h2>Overview</h2>
+                    <a href="#" class="back-to-top-link">
+                      <i class="fa fa-arrow-circle-up icon-action"></i>
+                    </a>
+
+                    <div class="prev-next-bar">
+                         <a href="#" class="prev-link icon-action"><i class="fa fa-chevron-left"> </i> Prev</a>
+                         <a href="#" class="next-link icon-action">Next <i class="fa fa-chevron-right"> </i></a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- horizontal navigation breadcrumb panel ends -->
+              <div class="row">
+                <div class="doc-body col-xs-12 col-border-left col-primary">
+                  <div class="row section">
+                    <div class="col-xs-12 col-lg-7 description with-example">
+                      <h2 class="">Directory Structure</h2>
+                      <pre class="line-numbers"><code class="language-bash">
+├── README.md           # what is it, who support it, how do developers use it, etc
+├── gulpfile.js
+├── main\               # where JS and optionally images and fonts are placed
+│   ├── images\         # only if you have them
+│   └── main.js         # required, can be the primary code, or an empty placeholder
+├── package.json        # required so that npm pack will package your files
+├── style\              # location of SASS files
+│   └── _header.scss
+└── test\               # karma tests
+    ├── karma.conf.js
+    └── test-main.js
+                    </code></pre>
+                    </div>
+                  </div>
+                  <div class="row section">
+                    <div class="col-xs-12 col-lg-7 description with-example">
+                      <h2>Standards</h2>
+                      <ol>
+                        <li>JS code must be structured as AMD modules</li>
+                        <li>SASS code must compile with node-sass version 0.9.3 or higher</li>
+                        <li>SASS code must use variables to define the path to images and fonts</li>
+                        <li>Have unit tests</li>
+                        <li>Have API documentation or examples</li>
+                        <li>Only use external JS from foundation-client/vendor</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="row section">
+                    <div class="col-xs-12 col-lg-7 description">
+                      <h2>Example Files</h2>
+                      <h3>README.md</h3>
+                      <pre class="line-numbers"><code class="language-bash">
+---
+title: gs-header
+tags: ['client', 'component']
+tocSection: developers
+---
+                      </code></pre>
+                      <h3>myapp.js</h3>
+                      <pre class="line-numbers"><code class="language-javascript">
+angular.module("uxApp").controller("AppAreaCtrl",
+	[ '$scope', 'appAreaService',
+	function ($scope, appService) {
+		$scope.my_data = "This is my data";
+		appService.getMyApps().then(function(data){
+			$scope.myapps = data;
+		}); 
+}]);
+                      </code></pre>
+                      <h3>package.json</h3>
+                      <pre class="line-numbers"><code class="language-javascript">
+{
+  "name": "header",
+  "version": "1.0.0",
+  "repository": {
+    "type": "svn",
+    "url": "svn+ssh://mq-fdn-client.svn.services.gs.com/svnroot/mq-fdn-client"
+  },
+  "dependencies": {
+    "uitoolkit": "http://prod.area.services.gs.com/area/repo/public/com/gs/ux/uitoolkit/uitoolkit.nm/2.0.0_beta4/uitoolkit.n m-2.0.0_beta4.tgz"
+  },
+  "config": {
+    "lintFiles": [
+      "main/**/*.js"
+    ],
+    "sassWatchFiles": [
+      "style/*.scss"
+    ]
+  }
+}
+                      </code></pre>
+                      <h3>_main.scss</h3>
+                      <pre class="line-numbers"><code class="language-scss">
+$font-path:"../features/uitoolkit/font";
+$fa-font-path:"../features/uitoolkit/font";
+$ui-header-root: "../javascripts/features/header";
+$ux-images-root: $ui-header-root +"/images" !default;
+.logo {
+    background-image: url('#{$ux-images-root}/gs_signature_logo.svg'), none;
+}
+                      </code></pre>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="app-sidebar-left">
+
+    <!-- User profile -->
+    <div class="app-profile">
+      <div class="profile-section">
+        <img alt="profile image" class="profile-image" src="http://directory.web.gs.com/directory/api?kerberos=none&amp;size=small">
+        <div class="profile-header">
+          <h3>LastName, FirstName</h3>
+          <div>Division</div>
+          <div>firstname.lastname@gs.com</div>
+        </div>
+        <span class="profile-collapse-btn"><i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="profile-collapse">
+        <div class="profile-section">
+          <a href="#" class="profile-item"><i class="fa fa-fw fa-user"></i> Account</a>
+          <a href="#" class="profile-item settings"><i class="fa fa-gear"></i> Settings</a>
+        </div>
+        <div class="profile-section">
+          <div class="profile-section-header">Help</div>
+          <a href="#" class="profile-item"><i class="fa fa-fw fa-envelope"></i> gs-app-dl@gs.com</a>
+          <a href="#" class="profile-item"><i class="fa fa-fw fa-phone"></i> 1 (212) 123-1234</a>
+        </div>
+      </div>
+    </div>
+    <!-- /User Profile -->
+
+  </div>
+
+  <div class="app-sidebar-right">
+
+    <!-- Notifications -->
+    <div class="app-notifications" >
+      <div class="app-notification-header clearfix">
+        <h3 class="pull-left">
+          Notifications
+        </h3>
+        <div class="pull-right">
+          <a href="javascript:;">Mark as Read</a>
+        </div>
+      </div>
+      <div class="list-group">
+        <a class="list-group-item new-notification" href="#">
+          <div class="clearfix">
+            <div class="pull-left notification-title">New notification</div>
+            <small class="pull-right">15 mins ago</small>
+          </div>
+          <p>A recently generated notification</p>
+        </a>
+        <a class="list-group-item" href="#">
+          <div class="clearfix">
+            <div class="pull-left notification-title">Read notification</div>
+            <small class="pull-right">6 hours ago</small>
+          </div>
+          <p>A notification generated 6h ago</p>
+        </a>
+        <a class="list-group-item" href="#">
+          <div class="clearfix">
+            <div class="pull-left notification-title">Old notification</div>
+            <small class="pull-right">3 days ago</small>
+          </div>
+          <p>An old notification for the uer</p>
+        </a>
+      </div>
+      <div class="app-notification-footer">
+        <a href="#">View All Notifications</a>
+      </div>
+    </div>
+    <!-- /Notifications -->
+
+  </div>
+
+
+  
+  
+  
+  
+
+  <!--
+    NOTE: JS are included at the end of <body>. This allows the page to be rendered while the JS is being
+    loaded. This is suggested to improve page load performance.
+  -->
+
+  <!-- JQuery is a prerequisite to UI Toolkit -->
+  <script defer="defer"  src="//gscdn.gs.com/js/jquery/1.11.0/jquery.min.js"></script>
+
+  <!-- UI Toolkit JS -->
+  <script defer="defer"  src="//gscdn.gs.com/firmwide/gns/software/cp/ux/uitoolkit/DONT_USE___REPLACE_WITH_APP_ID/2.1.2/uitoolkit/js/gs.uitoolkit.min.js"></script>
+
+  <!-- TypeaheadJS to activate header search bar -->
+  <script defer="defer"  src="//gscdn.gs.com/js/typeaheadjs/0.10.4/typeahead.jquery.min.js"></script>
+
+  <!-- Fixing IE issue with console.log -->
+  <script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+
+  <!-- Example specific JS -->
+  <script defer="defer"  src="js/documentation.js"></script><script defer="defer"  src="js/prism.js"></script>
+
+</body>
+
+</html>
